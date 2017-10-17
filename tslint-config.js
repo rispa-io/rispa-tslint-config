@@ -39,7 +39,8 @@ module.exports = {
         named: 'never',
       },
     ],
-    'no-param-reassign': true,
+    "no-param-reassign": false, // Disable invalid check
+    "no-parameter-reassignment": true, // Enable valid check
     'align': [
       true,
       'elements',
@@ -66,7 +67,7 @@ module.exports = {
       true,
       'ignore-for-loop',
     ],
-    'no-increment-decrement': true,
+    'no-increment-decrement': false,
     'triple-equals': [
       true,
       'allow-null-check',
@@ -147,11 +148,14 @@ module.exports = {
       true,
       {
         'static-method-regex': '^[a-z][\\w\\d]+$',
+        'function-regex': '^[A-Za-z][\\w\\d]+$',
       },
     ],
     'variable-name': [
       true,
+      'ban-keywords',
       'check-format',
+      'allow-pascal-case',
     ],
     'no-unused-variable': true,
     'no-var-self': true,
