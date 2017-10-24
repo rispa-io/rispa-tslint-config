@@ -2,7 +2,7 @@
   "name": "@rispa/tslint-config",
   "rispa:name": "tslint-config",
   "description": "TSLint config for Rispa",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "license": "MIT",
   "repository": "https://github.com/rispa-io/rispa-tslint-config.git",
   "author": "Dmitry Petrov <dvpetrov.main@gmail.com>",
@@ -11,11 +11,11 @@
     "url": "https://github.com/rispa-io/rispa-tslint-config/issues"
   },
   "dependencies": {
-    "typescript": ">=2.5.0",
     "tslint": "^5.7.0",
     "tslint-consistent-codestyle": "^1.8.0",
     "tslint-eslint-rules": "^4.1.1",
     "tslint-microsoft-contrib": "^5.0.1",
+    "typescript": ">=2.5.0",
     "vrsource-tslint-rules": "^5.1.1"
   }
 }
