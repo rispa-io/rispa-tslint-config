@@ -39,8 +39,8 @@ module.exports = {
         named: 'never',
       },
     ],
-    "no-param-reassign": false, // Disable invalid check
-    "no-parameter-reassignment": true, // Enable valid check
+    'no-param-reassign': false, // Disable invalid check
+    'no-parameter-reassignment': true, // Enable valid check
     'align': [
       true,
       'elements',
@@ -157,8 +157,6 @@ module.exports = {
       'check-format',
       'allow-pascal-case',
     ],
-    'no-unused-variable': true,
-    'no-var-self': true,
     'no-for-in': true,
     'import-name': false,
   },
