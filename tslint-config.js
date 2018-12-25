@@ -1,6 +1,9 @@
 const path = require('path')
 
 module.exports = {
+  extends: [
+    require.resolve('tslint-config-prettier'),
+  ],
   rulesDirectory: [
     path.join(path.dirname(require.resolve('tslint-consistent-codestyle')), './'),
     path.join(path.dirname(require.resolve('tslint-eslint-rules')), 'dist/rules'),
